@@ -4,11 +4,6 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-*{
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-}
 .b{
   background: rgb(161, 138, 138);
   align-items: center;
@@ -37,10 +32,7 @@ button{
   width: 70px;
   background: rgb(87, 12, 12);
   border: 1px solid green;
-  margin:8px;
-  float: left;
   text-align: center;
-  padding: 25px;
   font-size: 30px;
   color: aliceblue;
   cursor: pointer;
@@ -50,6 +42,18 @@ button{
 button:hover{
   background: rgb(196, 23, 23);
   font-size: 40px;
-  padding: 15px;
+
   width: 65px;
+}
+.eq{
+  width: 280px;
+}
+.eq:hover{
+  width: 278px;
+}
+.cls{
+  width: 140px;
+}
+.cls:hover{
+  width: 140px;
 }

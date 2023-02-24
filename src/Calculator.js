@@ -36,14 +36,14 @@ function Calculator() {
       <br/>
       <button onClick={handleClick} value="9">9</button>
       <button onClick={handleClick} value="0">0</button>
-      <button onClick={handleClear}>Clear</button>
+      <button className="cls" onClick={handleClear}>Clear</button>
       <br/>
       <button onClick={handleClick} value="+">+</button>
       <button onClick={handleClick} value="-">-</button>
       <button onClick={handleClick} value="*">*</button>
       <button onClick={handleClick} value="/">/</button>
       <br />
-      <button onClick={handleCalculate}>=</button>
+      <button class ="eq" onClick={handleCalculate}>=</button>
     </div>
   );
 }
